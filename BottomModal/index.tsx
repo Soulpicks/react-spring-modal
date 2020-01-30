@@ -2,7 +2,6 @@ import React from 'react';
 import { animated, useTransition } from 'react-spring';
 import BaseModal, { IBaseModalProps } from '../BaseModal';
 
-import classNames from '@chbphone55/classnames';
 import { ObjectOf } from '../generic-types';
 import './style.css';
 
@@ -40,7 +39,7 @@ function BottomModal({
       {modalTransition.map(({ item, key, props: transitionStyles }) =>
         item ? (
           <animated.div
-            className={classNames('BottomModal shadow-lg', className)}
+            className={['BottomModal', 'shadow-lg', className].join(' ')}
             key={key}
             style={{ ...transitionStyles, ...style }}
             {...props}

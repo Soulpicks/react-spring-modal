@@ -3,7 +3,6 @@ import { useTransition, animated } from 'react-spring';
 import { ObjectOf } from '../generic-types';
 import BaseModal, { IBaseModalProps } from '../BaseModal';
 
-import classNames from '@chbphone55/classnames';
 import './style.css';
 
 interface IProps extends IBaseModalProps, ObjectOf<any> {
@@ -41,7 +40,7 @@ function CenterModal({
           <animated.div
             key={key}
             style={{ ...transitionStyles, ...style }}
-            className={classNames('CenterModal shadow-lg', className)}
+            className={['CenterModal shadow-lg', className].join(' ')}
             {...props}
           />
         ) : null

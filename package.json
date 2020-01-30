@@ -1,6 +1,6 @@
 {
-  "name": "react-spring-modal",
-  "version": "1.0.7",
+  "name": "@soulpicks/react-spring-modal",
+  "version": "1.0.8",
   "description": "Animatable and accessible modals built with react-spring",
   "source": "index.ts",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisBrownie55/react-spring-modal.git"
+    "url": "git+https://github.com/Soulpicks/react-spring-modal.git"
   },
   "keywords": [
     "react",
@@ -31,9 +31,9 @@
   "author": "Christopher H. Brown <chbphone55@gmail.com> (https://chrisbrown.netlify.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChrisBrownie55/react-spring-modal/issues"
+    "url": "https://github.com/Soulpicks/react-spring-modal/issues"
   },
-  "homepage": "https://github.com/ChrisBrownie55/react-spring-modal#readme",
+  "homepage": "https://github.com/Soulpicks/react-spring-modal#readme",
   "devDependencies": {
     "@types/node": "^12.0.0",
     "@types/react": "^16.8.15",
